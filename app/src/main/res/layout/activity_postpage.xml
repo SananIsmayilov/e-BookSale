@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FB8C00"
+    android:layout_height="match_parent"
+    tools:context=".postpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="195dp"
+            android:id="@+id/imageview"
+            android:layout_height="250dp"
+            android:background="@color/white"
+            android:src="@drawable/pngitem"
+            android:backgroundTint="@null"
+            android:scaleType="fitXY"
+            android:onClick="galerayaget"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="100dp">
+
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:hint="Kitabın adı"
+                android:id="@+id/author"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backedit" />
+
+            <EditText
+                android:id="@+id/phonenum2"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/backedit"
+                android:hint="Kitabın müəllifi"
+
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="100dp">
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <EditText
+                  android:id="@+id/qiymet"
+                  android:layout_width="100dp"
+                  android:layout_height="50dp"
+                  android:layout_gravity="center"
+                  android:layout_marginRight="52dp"
+
+                  android:background="@drawable/backedit"
+                  android:hint="Qiyməti"
+                  android:inputType="number"
+                  android:textAlignment="center"
+                  app:layout_constraintRight_toRightOf="parent"
+                  tools:ignore="MissingConstraints"
+                  tools:layout_editor_absoluteY="0dp" />
+
+              <EditText
+                  android:id="@+id/phonenum3"
+                  android:layout_width="170dp"
+                  android:layout_height="50dp"
+                  android:layout_gravity="center"
+                  android:background="@drawable/backedit"
+                  android:hint="Əlaqə nömrəsi"
+                  android:inputType="number"
+                  android:textAlignment="center"
+                  tools:layout_editor_absoluteX="5dp"
+                  tools:layout_editor_absoluteY="0dp" />
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:backgroundTint="#FF5722"
+            android:layout_gravity="center"
+            android:text="Əlavə et"
+            android:textAllCaps="false"
+            android:onClick="melumatgonder"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            android:textColor="#0B0A0A"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
