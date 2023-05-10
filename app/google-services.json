@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "895137572252",
-    "project_id": "myseelapp",
-    "storage_bucket": "myseelapp.appspot.com"
+    "project_number": "xxxxx",
+    "project_id": "xxxxx",
+    "storage_bucket": "xxxxx"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:895137572252:android:5d7ede0bea5e837a9fd459",
+        "mobilesdk_app_id": "xxxxxx",
         "android_client_info": {
-          "package_name": "com.myapplication.myseelapp"
+          "package_name": "xxxx"
         }
       },
       "oauth_client": [
         {
-          "client_id": "895137572252-q55vl8rv6p7p4p5hv9v7gl31o3lj82r7.apps.googleusercontent.com",
+          "client_id": "xxxxx",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRqiOjWr8yDoBgUwGQI-1V2GdbGm3facE"
+          "current_key": "xxxxx"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "895137572252-q55vl8rv6p7p4p5hv9v7gl31o3lj82r7.apps.googleusercontent.com",
+              "client_id": "xxxxxx",
               "client_type": 3
             }
           ]
